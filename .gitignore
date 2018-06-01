@@ -1,0 +1,5 @@
+/public/assets*
+/tmp
+/db/*.log
+/vendor
+/apps/*/node_modules

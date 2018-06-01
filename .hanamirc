@@ -1,0 +1,3 @@
+project=fuse_test
+test=minitest
+template=haml
