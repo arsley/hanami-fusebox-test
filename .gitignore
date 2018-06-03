@@ -3,3 +3,5 @@
 /db/*.log
 /vendor
 /apps/*/node_modules
+/apps/*/.fusebox
+/public/*.js
