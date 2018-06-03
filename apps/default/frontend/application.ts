@@ -1,3 +1,5 @@
+import './application.scss';
+
 function add() {
   $('#home').after('<p>Hello FuseBox with jQuery!</p>');
 }
