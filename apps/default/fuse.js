@@ -16,5 +16,5 @@ const fuse = FuseBox.init({
     }
   }
 });
-fuse.bundle('app').instructions('> application.ts');
+fuse.bundle('app').instructions('> application.ts').watch('frontend/**');
 fuse.run();
