@@ -2,9 +2,11 @@ require 'bundler/setup'
 require 'hanami/setup'
 require 'hanami/model'
 require_relative '../lib/fuse_test'
+require_relative '../apps/react/application'
 require_relative '../apps/default/application'
 
 Hanami.configure do
+  mount React::Application, at: '/react'
   mount Default::Application, at: '/'
 
   model do

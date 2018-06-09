@@ -1,6 +1,10 @@
-# Fusebox test
+# Fusebox test with React.js
 
-# Specific
+## App is ...
+
+- located in apps/react
+
+## Specific
 
 - PostgreSQL
   - Run : `pg_ctl -l ./db/server.log`
